@@ -1,0 +1,3601 @@
+const QUIZ_QUESTIONS = [
+  {
+    "id": 1,
+    "exam": 1,
+    "q_num": 1,
+    "type": "choice",
+    "question": "Đại hội Olympic cổ đại đầu tiên được tổ chức vào năm nào trước công nguyên?",
+    "options": [
+      {
+        "key": "A",
+        "text": "775.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "776.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "777.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "778.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 2,
+    "exam": 1,
+    "q_num": 2,
+    "type": "choice",
+    "question": "Chủ tịch Hồ Chí Minh ra lời kêu gọi toàn dân tập thể dục vào thời gian nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "26/3/1946.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "27/3/1946.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "26/3/1947.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "27/3/1947.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 3,
+    "exam": 1,
+    "q_num": 3,
+    "type": "choice",
+    "question": "Chương trình đào tạo cho sinh viên chính quy của trường đại học Bách Khoa Hà Nội, môn GDTC được quy định bao nhiêu tiết?",
+    "options": [
+      {
+        "key": "A",
+        "text": "90.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "120.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "150.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "180.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 4,
+    "exam": 1,
+    "q_num": 4,
+    "type": "choice",
+    "question": "Đường, đạm, chất béo... là nguồn cung cấp cho sự sống của con người, khi hoạt động vận động, năng lượng đầu tiên được huy động từ chất nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mỡ (Lipit).",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Đường (Gluxit).",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Đạm.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Muối và nước.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 5,
+    "exam": 1,
+    "q_num": 5,
+    "type": "choice",
+    "question": "Trong các hoạt động kéo dài, công suất lớn khi đường đã cạn, năng lượng chính để duy trì hoạt động của con người được lấy từ chất nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mỡ (Lipit).",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Đường (Gluxit).",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Đạm.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Muối và nước.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 6,
+    "exam": 1,
+    "q_num": 6,
+    "type": "choice",
+    "question": "Máu là một chất lỏng đặc biệt, khối lượng máu toàn phần chiếm bao nhiêu % trọng lượng cơ thể?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 – 6%.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "6 – 7%.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "7 – 8%.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "8 – 9%.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 7,
+    "exam": 1,
+    "q_num": 7,
+    "type": "choice",
+    "question": "Kỹ năng vận động được hình thành theo 3 giai đoạn, sau một thời gian lặp lại hưng phấn tập trung ở những vùng nhất định trên vỏ não cần thiết cho vân động, các động tác thừa mất đi, động tác hợp lý nhịp nhàng. Đây là giai đoạn nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Giai đoạn lan tỏa.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Giai đoạn tập trung.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Giai đoạn tự động hóa.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 8,
+    "exam": 1,
+    "q_num": 8,
+    "type": "choice",
+    "question": "Sức nhanh là khả năng phản ứng và thực hiện động tác:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Với cường độ lớn nhất.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Với thời gian lớn nhất.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Với biên độ lớn nhất.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Với tốc độ cao.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 9,
+    "exam": 1,
+    "q_num": 9,
+    "type": "choice",
+    "question": "Bài tập nào dưới đây để phát triển sức nhanh?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bơi 400 – 800m.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Chạy 800m.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Chạy 30m, 60m, 80m, 100m.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Chèo thuyền 5000m.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 10,
+    "exam": 1,
+    "q_num": 10,
+    "type": "choice",
+    "question": "Sức mạnh của con người là khả năng khắc phụ lực đối kháng bên ngoài hoặc đối kháng lại nó bằng:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sự nỗ lực ý chí.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Sự nỗ lực tối đa của người tập.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Sự nỗ lực của cơ bắp.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 11,
+    "exam": 1,
+    "q_num": 11,
+    "type": "choice",
+    "question": "Bài tập nào dưới đây để phát triển sức mạnh?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bơi 400 – 800m.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Nằm sấp chống đẩy, bật cóc 30m.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Đua xe đạp đường trường.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Chạy 1500m.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 12,
+    "exam": 1,
+    "q_num": 12,
+    "type": "choice",
+    "question": "Nguyên tắc thích hợp và cá biệt hóa nói đến việc tập luyện TDTT phải phù hợp với:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lứa tuổi.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Giới tính.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Sức khỏe, trình độ thể lực.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Cả 3 yếu tố trên.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 13,
+    "exam": 1,
+    "q_num": 13,
+    "type": "choice",
+    "question": "Nguyên tắc tăng tiến nói đến việc tập luyện TDTT phải là quá trình:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tăng nhanh LVĐ.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Liên tục tăng LVĐ trong tập luyện.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Tăng LVĐ liên tục và từ từ.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 14,
+    "exam": 1,
+    "q_num": 14,
+    "type": "choice",
+    "question": "Hiện tượng choáng trọng lực xảy ra do nguyên nhân nào dưới đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "VĐV mệt mỏi, tập luyện quá sức.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "VĐV bị hạ đường huyết đột ngột.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "VĐV về đích dừng lại đột ngột làm hạn chế lưu thông máu về tim, gây thiếu oxy lên não.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Do điều kiện tập luyện nắng, nóng quá gây nên.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 15,
+    "exam": 1,
+    "q_num": 15,
+    "type": "choice",
+    "question": "Để cấp cứu người bị say năng cần phải làm gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đưa người ta vào chỗ thoáng mát, nới lỏng quần áo ra.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Dùng khăn ướt lau người và đầu chán.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Cho nạn nhân uống nước chè đường hoặc chanh muối.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Cả ba đáp án trên.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 16,
+    "exam": 1,
+    "q_num": 16,
+    "type": "choice",
+    "question": "Trong hoạt động TDTT khi bị va chạm mạnh gây bầm dập phần cơ bắp, cần thiết phải xử lý như thế nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dùng ngay thuộc xoa bóp, dầu nóng xoa vào chỗ bầm tím.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Dan ngay thuốc salonpas.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Chườm lạnh 1 – 2 ngày đầu rồi mới dùng thuốc xoa bóp.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 17,
+    "exam": 1,
+    "q_num": 17,
+    "type": "choice",
+    "question": "Khi cấp cứu người bị suy hô hấp trong các trường hợp bị điện giật, chết đuối, chấn thương sọ não cần phải hà hơi thổi ngạt với tần só nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 – 15 lần/phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "16 – 20 lần/phút.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "60 – 70 lần/ phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "80 – 90 lần/phút.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 18,
+    "exam": 1,
+    "q_num": 18,
+    "type": "choice",
+    "question": "Sử dụng phương pháp nào sau đây để kiểm tra mức độ phát triển thể lực:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phương pháp quan sát.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Phương pháp nhân trắc.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Cả 2 phương án trên.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 19,
+    "exam": 1,
+    "q_num": 19,
+    "type": "choice",
+    "question": "Công thức tính QVC?",
+    "options": [
+      {
+        "key": "A",
+        "text": "QVC= Chiều cao(cm) – (Vòng ngực hít vào + Vòng đùi thuận + Vòng cánh tay co).",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "QVC= h – (P + V).",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "QVC= Chiều cao(cm) + Vòng ngực hít vào + Vòng đùi thuận + Vòng cánh tay co.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 20,
+    "exam": 1,
+    "q_num": 20,
+    "type": "choice",
+    "question": "Phương pháp nào dưới đây của Test Haward thể hiện chức năng tim mạch trung bình",
+    "options": [
+      {
+        "key": "A",
+        "text": "H= 56 – 64.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "H > 99.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "H= 65 – 79.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 21,
+    "exam": 2,
+    "q_num": 1,
+    "type": "choice",
+    "question": "Chủ tịch Hồ Chí Minh ra lời kêu gọi toàn dân tập thể dục vào thời gian nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "27/3/1946.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "27/3/1947.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "27/3/1948.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "27/3/1949.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 22,
+    "exam": 2,
+    "q_num": 2,
+    "type": "choice",
+    "question": "Bộ máy vận động bao gồm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Xương, cơ quan hô hấp.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Xương, hệ tuần hoàn.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Xương, cơ, dây chằng.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Xương, sư tra đổi chất.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 23,
+    "exam": 2,
+    "q_num": 3,
+    "type": "choice",
+    "question": "Trong nguyên tắc tự giác tích cực, để tạo ra động cơ cho người học, động cơ đó được biểu hiện như thế nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sự khát khao vươn tới cái đẹp.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Tìm hiểu ý nghĩa chân chính của TDTT + A.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Sự khát khao vươn tới đẳng cấp TDTT.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Nhận thức hứng thú về TDTT + C.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 24,
+    "exam": 2,
+    "q_num": 4,
+    "type": "choice",
+    "question": "Sau khi kiểm tra các chức năng hoạt động của các cơ quan trong cơ thể, chức năng nào sau đây quyết định đến khả năng vận động và khả năng thích ứng của cơ thể với vận động?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chức năng hệ tim mạch.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Chức năng hệ hô hấp.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Chức năng hệ trao đổi chất.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Chức năng hệ thần kinh.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 25,
+    "exam": 2,
+    "q_num": 5,
+    "type": "fill_blank",
+    "question": "Hãy điền từ còn khuyết để hoàn thiện khái niệm về giáo dục Sức nhanh trong các tố chất thể lực của TDTT? Sức nhanh là một tổ hợp thuộc tính chức năng của con người. Nó quy định chủ yếu và trực tiếp đặc tính tốc độ [ ... ] cũng như thời gian phản ứng vận động.",
+    "fill_answer": "Động tác",
+    "options": [
+      {
+        "key": "A",
+        "text": "Động tác",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Di chuyển",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Tư thế",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Phản xạ",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 26,
+    "exam": 2,
+    "q_num": 6,
+    "type": "choice",
+    "question": "Nhu cầu “nước” của một người trong một ngày khoảng bao nhiêu lít nước?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 - 1,5 lít.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "1,5 – 2 lít.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "2 – 2,5 lít.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "2,5 – 3 lít.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 27,
+    "exam": 2,
+    "q_num": 7,
+    "type": "choice",
+    "question": "Để cấp cứu người bị say năng trong tập luyện TDTT cần phải làm gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đưa người ta vào chỗ thoảng mát, nới lỏng quần áo ra. Dùng khăn ướt lau người và đầu chán, cho uống dung dịch ozeron. Nếu nặng nữa nhanh chóng đưa đi bệnh viện.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Đưa người ta vào chỗ thoáng mát, nới lỏng quần áo ra, dùng khăn ướt lau người và đầu chán, nếu nặng nữa nhanh chóng đưa đi bệnh viện.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Đưa người ta vào chỗ thoáng mát, nới lỏng quần áo ra, cho uống dung dịch ozeron, nếu nặng nữa nhanh chóng đưa đi bệnh viện.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Đưa người ta vào chỗ thoáng mát, nới lỏng quần áo ra, dùng khăn ướt lau người và đầu chán, cho uống dung dịch ozeron.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 28,
+    "exam": 2,
+    "q_num": 8,
+    "type": "choice",
+    "question": "Đoàn thể thao Việt Nam lần đầu tiên tham gia đấu trường Olympic vào năm nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Olympic 1972 tại Munich (Đức).",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Olympic 1976 tại Montreal (Canada).",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Olympic 1980 tại Mát – xcơ – va (Nga).",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Olympic 1984 tại Los Angeles (Mỹ).",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 29,
+    "exam": 2,
+    "q_num": 9,
+    "type": "choice",
+    "question": "Triệu chứng: Đau ở vùng khớp bị thương, sưng tấy đỏ vì khớp có dịch và máu, giảm khả năng hoạt động của khớp, là chấn thương nào trong tập luyện và thi đấu TDTT gây nên?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chạm thương.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Biến dạng bao khớp.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Sai khớp.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Bong gân.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 30,
+    "exam": 2,
+    "q_num": 10,
+    "type": "choice",
+    "question": "Nguyên tắc tăng dần yêu cầu nói đến việc tập luyện TDTT phải là quá trình?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tăng nhanh LVĐ.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Liên tục tăng LVĐ trong tập luyện.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Tăng LVĐ liên tục và từ từ.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Tăng thời gian thực hiện bài tập.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 31,
+    "exam": 2,
+    "q_num": 11,
+    "type": "choice",
+    "question": "Chỉ số vòng cao QVC được nên nghiên cứu trên đối tượng nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tuổi từ 18 – 25.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Tuổi từ 30 – 35.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Tuổi từ 40 – 45.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Tuổi từ 50 – 60.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 32,
+    "exam": 2,
+    "q_num": 12,
+    "type": "choice",
+    "question": "Bài tập nào dưới đây là bài tập phát triển sức bền yếm khí?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bài tập chạy dưới 2 phút.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Bài tập chạy dưới 4 phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Bài tập chạy dưới 6 phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Bài tập chạy dưới 8 phút.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 33,
+    "exam": 2,
+    "q_num": 13,
+    "type": "choice",
+    "question": "Chỉ số sinh lý đặc trưng cho hoạt động của hệ hô hấp là tần số hô hấp. Ở người khi tham gia tập luyện TDTT, tần số hô hấp khoảng bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20 – 30 lần/phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "25 – 35 lần/phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "30 – 40 lần/ phút.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "35 – 45 lần/phút.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 34,
+    "exam": 2,
+    "q_num": 14,
+    "type": "choice",
+    "question": "“Đưa VĐV vào chỗ thoảng mát, nới lỏng quần áo, đặt nằm chán cao hơn đầu, xoa bóp từ chân lên để máu về tim dễ dàng” là cách xử lý của hiện tượng sinh lý nào xảy ra trong tập luyện và thi đấu TDTT?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hiện tượng cực điểm.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Hiện tượng say nắng.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Hiện tượng hạ đường huyết.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Hiện tượng choáng trọng lực.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 35,
+    "exam": 2,
+    "q_num": 15,
+    "type": "choice",
+    "question": "Trong hoạt động TDTT khi bị va chạm mạnh gây bầm dập phần cơ bắp, cần thiết phải xử lý như thế nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dùng ngay thuốc xoa bóp dầu nóng vào chỗ bầm tím.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Dán ngay thuốc salonpas, băng ga rô.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Chườm lạnh 1 – 2 ngày đầu rồi mới dùng thuốc xoa bóp.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Chườm lạnh 3 – 4 ngày đầu rồi mới dùng thuốc xoa bóp.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 36,
+    "exam": 2,
+    "q_num": 16,
+    "type": "choice",
+    "question": "Nhiệm vụ của kiểm tra y học TDTT là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tổ chức và thực hiện riêng cho VĐV có trình độ cao.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Phát hiện sớm những chấn thương và bệnh lý xuất hiện do quá trình tập luyện.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Đánh giá trình độ của giáo viên, huấn luyện viên.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Đánh giá trình độ của sinh viên tham gia tập luyện.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 37,
+    "exam": 2,
+    "q_num": 17,
+    "type": "choice",
+    "question": "Khi chảy máu động mạch, tĩnh mạch lớn, máu chảy xối xả thì phải sử dụng phương pháp ga rô, nhưng không được đặt ga rô lâu quá?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Không quá 2 tiếng.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Không quá 3 tiếng.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Không quá 4 tiếng.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Không quá 5 tiếng.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 38,
+    "exam": 2,
+    "q_num": 18,
+    "type": "choice",
+    "question": "Trong tập luyện và thi đấu TDTT gây nên triệu chứng: cảm thấy khó thở, đau bụng, chóng mặt, buồn nôn và muốn bỏ cuộc. Là hiện tượng sinh lý nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hiện tượng cực điểm.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Hiện tượng say nắng.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Hiện tượng hạ đường huyết.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Hiện tượng choáng trọng lực.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 39,
+    "exam": 2,
+    "q_num": 19,
+    "type": "choice",
+    "question": "Tố chất Mềm dẻo là năng lực thực hiện động tác?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lâu nhất.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Cường độ lớn.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Biên độ lớn nhất.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Ngắn nhất.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 40,
+    "exam": 2,
+    "q_num": 20,
+    "type": "choice",
+    "question": "Bằng kiến thức đã học về lý luận giáo dục thể chất. Anh (chị) hãy cho biết, lượng vận động trong một buổi tập TDTT phụ thuộc vào yếu tố nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Khối lượng và lặp lại bài tập.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Khối lượng và thời gian vận động.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Khối lượng và cường độ bài tập.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Khối lượng và kỹ năng thực hiện bài tập.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 41,
+    "exam": 3,
+    "q_num": 1,
+    "type": "choice",
+    "question": "Nói đến tính chất “luân phiên lượng vận động với nghỉ ngơi” là nguyên tắc tập luyện TDTT nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nguyên tắc thích hợp và cá biệt hóa.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Nguyên tắc tăng dần yêu cầu.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Nguyên tắc hệ thống.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Nguyên tắc tự giác tích cực.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 42,
+    "exam": 3,
+    "q_num": 2,
+    "type": "choice",
+    "question": "Có mấy nội dung kiếm tra y học thể dục thể thao?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "5.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "6.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "7.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 43,
+    "exam": 3,
+    "q_num": 3,
+    "type": "choice",
+    "question": "Chỉ số quay vòng cao QVC được nên nghiên cứu trên đối tượng nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tuổi từ 18 – 25.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Tuổi từ 30 – 35.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Tuổi từ 40 – 45.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Tuổi từ 50 – 60.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 44,
+    "exam": 3,
+    "q_num": 4,
+    "type": "choice",
+    "question": "Hãy chọn từ còn khuyết để hoàn thiện khái niệm về giáo dục Sức bền chung trong các tố chất thể lực của TDTT? Sức bền chung: là sức bền trong các hoạt động kéo dài với ............................. thấp, có sự tham gia của phần lớn hệ cơ. Loại sức bền này có ảnh hưởng sâu sắc đến các loại sức bền khác, cũng như các tố chất thể lực khác.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hoạt động.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Vận động.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Khối lượng.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Cường độ.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 45,
+    "exam": 3,
+    "q_num": 5,
+    "type": "choice",
+    "question": "Khi tập luyện và thi đấu TDTT có triệu chứng: tự nhiên thấy nhức đầu, hoa mắt, chóng mặt, mệt mỏi, chân tay ra rời, khó thở, mồ hôi ra nhiều, mặt đỏ, ù tai. Là hiện tượng sinh lý nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hiện tượng cực điểm.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Hiện tượng say nắng.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Hiện tượng hạ đường huyết.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Hiện tượng choáng trọng lực.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 46,
+    "exam": 3,
+    "q_num": 6,
+    "type": "choice",
+    "question": "Sẽ nguy hiểm đến sự sống, nếu mất đi số lượng máu trong cơ thể là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1/3.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "1/4.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "2/3.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "1/5.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 47,
+    "exam": 3,
+    "q_num": 7,
+    "type": "choice",
+    "question": "Sự cân bằng giữa năng lượng hấp thụ và năng lượng tiêu hao là chỉ số quan trọng để đánh giá gì của cơ thể?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Áp suất trong không khí.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Thân nhiệt của cơ thể.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Sự trao đổi năng lượng.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Môi trường xung quanh.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 48,
+    "exam": 3,
+    "q_num": 8,
+    "type": "choice",
+    "question": "Vận động viên muốn thoát khỏi hiện tượng Cực điểm thì phải?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nghỉ ngơi dừng tập.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Nỗ lực ý chí quyết tâm không bỏ cuộc.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Hít thở sâu, giảm tần số bước chạy.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Phương án b và c.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 49,
+    "exam": 3,
+    "q_num": 9,
+    "type": "choice",
+    "question": "Sự ra đời của TDTT được lịch sử TDTT ghi nhận trong chế độ xã hội nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Xã hội nguyên thủy.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Xã hội chiếm hữu nô lệ.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Xã hội phong kiến.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Xã hội tư bản.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 50,
+    "exam": 3,
+    "q_num": 10,
+    "type": "choice",
+    "question": "Trong tập luyện và thi đấu TDTT, bong gân thường hay xảy ra ở khớp nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Khớp gối, khớp cổ tay, khớp vai, khớp ngón tay cái, khớp cổ chân.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Khớp gối, khớp cổ tay, khớp vai, khớp ngón tay cái, khớp khuỷu.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Khớp gối, khớp cổ tay, khớp ngón tay cái, khớp cổ chân.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Khớp gối, khớp cổ tay, khớp vai, khớp khuỷu, khớp ngón tay cái, khớp cổ chân.",
+        "isCorrect": false
+      },
+      {
+        "key": "E",
+        "text": "Khớp gối, khớp cổ tay, khớp vai, khớp khuỷu, khớp cổ chân.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 51,
+    "exam": 3,
+    "q_num": 11,
+    "type": "choice",
+    "question": "Nguyên tắc thích hợp – cá biệt hóa nói đến việc tập luyện TDTT phù hợp với?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lứa tuổi.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Giới tính + A.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Sức khỏe, trình độ thể lực + A.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Cả ba yếu tố trên.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 52,
+    "exam": 3,
+    "q_num": 12,
+    "type": "choice",
+    "question": "Mục đích của kiểm tra y học TDTT là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đánh giá tình trạng sức khỏe, mức độ vận động và khả năng thích ứng của cơ thể.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Đánh giá tình trạng sức khỏe, năng lực vận động và khả năng thích ứng của cơ thể.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Đánh giá tình trạng sức khỏe, theo dõi vận động và khả năng thích ứng của cơ thể.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Đánh giá tình trạng sức khỏe, tuyển chọn và điều chỉnh phương tiện huấn luyện.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 53,
+    "exam": 3,
+    "q_num": 13,
+    "type": "choice",
+    "question": "Bài tập nào dưới đây để phát triển sức mạnh?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bơi 400 – 800m.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Bơi 200 – 400m.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Bơi vượt sông.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Bơi ngược dòng.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 54,
+    "exam": 3,
+    "q_num": 14,
+    "type": "choice",
+    "question": "Test đo dung tích sống có ý nghĩa như thế nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dung tích sống càng lớn thì thể tích phổi càng lớn chứng tỏ chức năng hô hấp tốt.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Dung tích sống tỉ lệ nghịch với thể tích phổi chứng tỏ chức năng hô hấp tốt.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Dung tích sống nhỏ, thể tích phổi lớn chứng tỏ chức năng hô hấp tốt.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Dung tích sống tỉ lệ thuận với thể tích phổi chưng tỏ chức năng hô hấp tốt.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 55,
+    "exam": 3,
+    "q_num": 15,
+    "type": "choice",
+    "question": "Nguyên nhân chính gây ra hiện tượng “Chuột rút” trong tập luyện và thi đấu TDTT?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Do tập luyện và thi đấu với cường độ lớn và chế độ ăn uống chưa hợp lý.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Do tập luyện và thi đấu với khối lượng lớn, mất nhiều muối và nước.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Do tập luyện và thi đấu với cường độ lớn, ứ đọng axitlatic trong cơ, mất nhiều muối và nước rối loạn trong trao đổi chất trong cơ.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Do tập luyện và thi đấu với khối lượng lớn, ứ đọng axitlatic trong cơ, mất nhiều muối và nước rối loạn trao đổi chất trong cơ.",
+        "isCorrect": false
+      },
+      {
+        "key": "E",
+        "text": "Do tập luyện và thi đấu với cường độ lớn, ứ đọng axitlatic trong cơ, tính thẩm thấu giữa các bó cơ giảm, mất nhiều nuối và nước rối loạn trao đổi chất trong cơ.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "E"
+  },
+  {
+    "id": 56,
+    "exam": 3,
+    "q_num": 16,
+    "type": "choice",
+    "question": "Căn cứ vào các đặc điểm của hoạt động thể thao, người ta có thể chia năng lực phối hợp vận động thành mấy loại?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "7.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "8.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "9.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 57,
+    "exam": 3,
+    "q_num": 17,
+    "type": "choice",
+    "question": "Bằng kiến thức đã học về lý luận giáo dục thể chất. Anh (chị) hãy cho biết những nguyên nhân chính gây nên hiện tượng “Tiểu đường”?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Do lười vận động – do chế độ ăn uống – do gen di truyền – do môi trường sống – do hệ tim mạch yếu.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Do lười vận động – do chế độ ăn uống – do gen di truyền – do hệ miễn dịch kém – do hệ tim mạch yếu",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Do lười vận động – do chế độ ăn uống – do gen di truyền – do môi trường sống – do béo phì.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Do lười vận động – do chế độ ăn uống – do môi trường sống – do hệ miễn dịch kém.",
+        "isCorrect": false
+      },
+      {
+        "key": "E",
+        "text": "Do lười vận động – do chế độ ăn uống – do gen di truyền – do môi trường sống – do hệ miễn dịch kém.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 58,
+    "exam": 3,
+    "q_num": 18,
+    "type": "choice",
+    "question": "Quyết định phục hồi lại thế vận hội Olympic, sau thời gian bị dừng lại được đưa ra vào ngày?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ngày 23/6/1893.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Ngày 23/6/1894.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Ngày 23/6/1895.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Ngày 23/6/1896.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 59,
+    "exam": 3,
+    "q_num": 19,
+    "type": "choice",
+    "question": "Khi cấp cứu trẻ em bị suy hô hấp trong các trường hợp bị điện giật, chết đuối, chấn thương sọ não cần phải hả hơi thổi ngạt với tần số nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "14 – 16 lần/phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "16 – 18 lần/phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "18 – 20 lần/phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "20 – 22 lần/phút.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 60,
+    "exam": 3,
+    "q_num": 20,
+    "type": "choice",
+    "question": "Khi sơ cứu gãy xương hở, gây rách da, chảy máu cần phải làm gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Băng bó cầm máu, bất động chỗ bị gãy bằng nẹp, chuyển nạn nhân đi bệnh viện.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Băng bó cầm máu, ủ ấm cho nạn nhân, rồi chuyển nạn nhân đi bệnh viện.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Băng bó cầm máu, bất động chỗ bị gãy bằng nẹp, ủ ấm, chuyển nạn nhn đi bệnh viện.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Bất độ chỗ bị gãy bằng nẹp, ủ ấm cho nạn nhân rồi chuyển nạn nhân đi bệnh viện.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 61,
+    "exam": 4,
+    "q_num": 1,
+    "type": "choice",
+    "question": "Quyết định phục hồi lại thế vận hội Olympic, sau thời gian bị dừng lại được đưa ra vào ngày?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ngày 23/6/1893.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Ngày 23/6/1894.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Ngày 23/6/1895.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Ngày 23/6/1896.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 62,
+    "exam": 4,
+    "q_num": 2,
+    "type": "choice",
+    "question": "Khi cấp cứu trẻ em bị suy hô hấp trong các trường hợp bị điện giật, chết đuối, chấn thương sọ não cần phải hả hơi thổi ngạt với tần số nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "14 – 16 lần/phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "16 – 18 lần/phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "18 – 20 lần/phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "20 – 22 lần/phút.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 63,
+    "exam": 4,
+    "q_num": 3,
+    "type": "choice",
+    "question": "Nói đến tính chất “luân phiên hiện tượng vận động với nghỉ ngơi”. Là nguyên tắc tập luyện TDTT nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nguyên tắc thích hợp và cá biệt hóa.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Nguyên tắc tăng dần yêu cầu.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Nguyên tắc hệ thống.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Nguyên tắc tự giác tích cực.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 64,
+    "exam": 4,
+    "q_num": 4,
+    "type": "choice",
+    "question": "Có mấy nội dung kiếm tra y học thể dục thể thao?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "5.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "6.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "7.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 65,
+    "exam": 4,
+    "q_num": 5,
+    "type": "fill_blank",
+    "question": "Hãy chọn từ còn khuyết để hoàn thiện khái niệm về giáo dục Sức bền chung trong các tố chất thể lực của TDTT? Sức bền chung: là sức bền trong các hoạt động kéo dài với [ ... ] thấp, có sự tham gia của phần lớn hệ cơ. Loại sức bền này có ảnh hưởng sâu sắc đến các loại sức bền khác, cũng như các tố chất thể lực khác.",
+    "fill_answer": "cường độ",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hoạt động",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Vận động",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Khối lượng",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Cường độ",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 66,
+    "exam": 4,
+    "q_num": 6,
+    "type": "choice",
+    "question": "Sự cân bằng giữa năng lượng hấp thụ và năng lương tiêu hao là chỉ số quan trọng để đánh giá gì của cơ thể?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Áp suất trong không khí.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Thân nhiệt của cơ thể.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Môi trường xung quanh.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Sự trao đổi năng lượng.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 67,
+    "exam": 4,
+    "q_num": 7,
+    "type": "choice",
+    "question": "Vận động viên muốn thoát khỏi hiện tượng Cực điểm thì phải?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nghỉ ngơi dừng tập.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Nỗ lực ý chí quyết tâm không bỏ cuộc.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Hít thở sâu, giảm tần số bước chạy.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Phương án b và c.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 68,
+    "exam": 4,
+    "q_num": 8,
+    "type": "choice",
+    "question": "Sự ra đời của TDTT được lịch sử TDTT ghi nhận trong chế độ xã hội nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Xã hội nguyên thủy.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Xã hội chiếm hữu nô lệ.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Xã hội phong kiến.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Xã hội tư bản.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 69,
+    "exam": 4,
+    "q_num": 9,
+    "type": "choice",
+    "question": "Trong tập luyện và thi đấu TDTT, bong gân thường hay xảy ra ở khớp nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Khớp gối, khớp cổ tay, khớp vai, khớp ngón tay cái, khớp cổ chân.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Khớp gối, khớp cổ tay, khớp vai, khớp ngón tay cái, khớp khuỷu.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Khớp gối, khớp cổ tay, khớp ngón tay cái, khớp cổ chân.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Khớp gối, khớp cổ tay, khớp vai, khớp khuỷu, khớp ngón tay cái, khớp cổ chân.",
+        "isCorrect": true
+      },
+      {
+        "key": "E",
+        "text": "Khớp gối, khớp cổ tay, khớp vai, khớp khuỷu, khớp cổ chân.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 70,
+    "exam": 4,
+    "q_num": 10,
+    "type": "choice",
+    "question": "Nguyên tắc thích hợp – cá biệt hóa nói đến việc tập luyện TDTT phù hợp với?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lứa tuổi.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Giới tính + A.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Sức khỏe, trình độ thể lực + A.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Cả ba yếu tố trên.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 71,
+    "exam": 4,
+    "q_num": 11,
+    "type": "choice",
+    "question": "Mục đích của kiểm tra y học TDTT là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đánh giá tình trạng sức khỏe, mức độ vận động và khả năng thích ứng của cơ thể.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Đánh giá tình trạng sức khỏe, năng lực vận động và khả năng thích ứng của cơ thể.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Đánh giá tình trạng sức khỏe, theo dõi vận động và khả năng thích ứng của cơ thể.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Đánh giá tình trạng sức khỏe, tuyển chọn và điều chỉnh phương tiện huấn luyện.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 72,
+    "exam": 4,
+    "q_num": 12,
+    "type": "choice",
+    "question": "Bài tập nào dưới đây để phát triển sức mạnh?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bơi 400 – 800m.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Bơi 200 – 400m.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Bơi vượt sông.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Bơi ngược dòng.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 73,
+    "exam": 4,
+    "q_num": 13,
+    "type": "choice",
+    "question": "Sẽ nguy hiểm đến sự sống, nếu mất đi số lượng máu trong cơ thể là bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1/3.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "1/4.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "2/3.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "1/5.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 74,
+    "exam": 4,
+    "q_num": 14,
+    "type": "choice",
+    "question": "Khi tập luyện và thi đấu TDTT có triệu chứng: tự nhiên thấy nhức đầu, hoa mắt, chóng mặt, mệt mỏi, chân tay ra rời, khó thở, mồ hôi ra nhiều, mặt đỏ, ù tai. Là hiện tượng sinh lý nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hiện tượng cực điểm.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Hiện tượng say nắng.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Hiện tượng hạ đường huyết.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Hiện tượng choáng trọng lực.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 75,
+    "exam": 4,
+    "q_num": 15,
+    "type": "choice",
+    "question": "Khi sơ cứu gãy xương hở, gây rách da, chảy máu cần phải làm gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Băng bó cầm máu, bất động chỗ bị gãy bằng nẹp, chuyển nạn nhân đi bệnh viện.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Băng bó cầm máu, ủ ấm cho nạn nhân, rồi chuyển nạn nhân đi bệnh viện.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Băng bó cầm máu, bất động chỗ bị gãy bằng nẹp, ủ ấm, chuyển nạn nhân đi bệnh viện.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Bất độ chỗ bị gãy bằng nẹp, ủ ấm cho nạn nhân rồi chuyển nạn nhân đi bệnh viện.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 76,
+    "exam": 4,
+    "q_num": 16,
+    "type": "choice",
+    "question": "Chỉ số quay vòng cao QVC được nên nghiên cứu trên đối tượng nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tuổi từ 18 – 25.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Tuổi từ 30 – 35.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Tuổi từ 40 – 45.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Tuổi từ 50 – 60.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 77,
+    "exam": 4,
+    "q_num": 17,
+    "type": "choice",
+    "question": "Test đo dung tích sống có ý nghĩa như thế nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dung tích sống càng lớn thì thể tích phổi càng lớn chứng tỏ chức năng hô hấp tốt.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Dung tích sống tỉ lệ nghịch với thể tích phổi chứng tỏ chức năng hô hấp tốt.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Dung tích sống nhỏ, thể tích phổi lớn chứng tỏ chức năng hô hấp tốt.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Dung tích sống tỉ lệ thuận với thể tích phổi chưng tỏ chức năng hô hấp tốt.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 78,
+    "exam": 4,
+    "q_num": 18,
+    "type": "choice",
+    "question": "Nguyên nhân chính gây ra hiện tượng “Chuột rút” trong tập luyện và thi đấu TDTT?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Do tập luyện và thi đấu với cường độ lớn và chế độ ăn uống chưa hợp lý.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Do tập luyện và thi đấu với khối lượng lớn, mất nhiều muối và nước.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Do tập luyện và thi đấu với cường độ lớn, ứ đọng axitlatic trong cơ, mất nhiều muối và nước rối loạn trong trao đổi chất trong cơ.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Do tập luyện và thi đấu với khối lượng lớn, ứ đọng axitlatic trong cơ, mất nhiều muối và nước rối loạn trao đổi chất trong cơ.",
+        "isCorrect": false
+      },
+      {
+        "key": "E",
+        "text": "Do tập luyện và thi đấu với cường độ lớn, ứ đọng axitlatic trong cơ, tính thẩm thấu giữa các bó cơ giảm, mất nhiều nuối và nước rối loạn trao đổi chất trong cơ.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "E"
+  },
+  {
+    "id": 79,
+    "exam": 4,
+    "q_num": 19,
+    "type": "choice",
+    "question": "Căn cứ vào các đặc điểm của hoạt động thể thao, người ta có thể chia năng lực phối hợp vận động thành mấy loại?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "7.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "8.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "9.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 80,
+    "exam": 4,
+    "q_num": 20,
+    "type": "choice",
+    "question": "Bằng kiến thức đã học về lý luận giáo dục thể chất. Anh (chị) hãy cho biết những nguyên nhân chính gây nên hiện tượng “Tiểu đường”?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Do lười vận động – do chế độ ăn uống – do gen di truyền – do môi trường sống – do hệ tim mạch yếu.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Do lười vận động – do chế độ ăn uống – do gen di truyền – do hệ miễn dịch kém – do hệ tim mạch yếu",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Do lười vận động – do chế độ ăn uống – do gen di truyền – do môi trường sống – do béo phì.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Do lười vận động – do chế độ ăn uống – do môi trường sống – do hệ miễn dịch kém.",
+        "isCorrect": false
+      },
+      {
+        "key": "E",
+        "text": "Do lười vận động – do chế độ ăn uống – do gen di truyền – do môi trường sống – do hệ miễn dịch kém.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 81,
+    "exam": 5,
+    "q_num": 1,
+    "type": "choice",
+    "question": "Anh (chị) hãy cho biết giai đoạn nào xuất hiện cơ sở vể lý luận giáo dục thể chất?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Xã hội nguyên thủy.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Xã hội chiếm hữu nô lệ.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Xã hội phong kiến.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Xã hội tư bản.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 82,
+    "exam": 5,
+    "q_num": 2,
+    "type": "choice",
+    "question": "Anh (chị) hãy cho biết các bước tiến hành “cứu đuối” nào sau đây đúng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Làm thông đường hô hấp – hà hơi thổi ngạt, xoa bóp tim ngoài lồng ngực.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Làm thông đường hô hấp – dốc nước trong bụng – hà hơi thổi ngạt, xoa bóp tim ngoài lồng ngực.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Làm thông đường hô hấp – hà hơi thổi ngạt, xoa bóp tim ngoài lồng ngực – dốc nước trong bụng.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Dốc nước trong bụng – làm thông đường hô hấp – hà hơi thổi ngạt, xoa bóp tim ngoài lồng ngực.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 83,
+    "exam": 5,
+    "q_num": 3,
+    "type": "choice",
+    "question": "Nguyên tắc hệ thống là nguyên tắc nói đến?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Luyện tập phải thường xuyên liên tục.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Phải luân phiên giữa tập luyện và nghỉ ngơi.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Sắp xếp nội dung hợp lý.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Cả ba yếu tố trên.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 84,
+    "exam": 5,
+    "q_num": 4,
+    "type": "choice",
+    "question": "Nội dung đo: chiều cao đứng, ngồi, cân nặng, các số đo lồng ngực, vòng bụng, vòng cánh tay, vòng đùi, vòng mông, độ dài tay, chân, đo sức mạnh cơ, dung tích sống. Là của phương pháp nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phương pháp quan sát.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Phương pháo Q.V.C (quay vòng).",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Phương pháp Erisman.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Phương pháp nhân trắc.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 85,
+    "exam": 5,
+    "q_num": 5,
+    "type": "fill_blank",
+    "question": "Hãy chọn từ còn khuyết để hoàn thiện khái niệm về giáo dục Sức bền chung trong các tố chất thể lực của TDTT? Sức bền chung: là sức bền trong các hoạt động kéo dài với [ ... ] thấp, có sự tham gia của phần lớn hệ cơ. Loại sức bền này có ảnh hưởng sâu sắc đến các loại sức bền khác, cũng như các tố chất thể lực khác.",
+    "fill_answer": "cường độ",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hoạt động",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Vận động",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Khối lượng",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Cường độ",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 86,
+    "exam": 5,
+    "q_num": 6,
+    "type": "choice",
+    "question": "Máu là một chất lỏng đặc biệt, khối lượng máu toàn phần chiếm bao nhiêu % trọng lượng cơ thể?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 – 6%.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "6 – 7%.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "7 – 8%.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "8 – 9%.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 87,
+    "exam": 5,
+    "q_num": 7,
+    "type": "choice",
+    "question": "Khi tập luyện và thi đấu TDTT có triệu chứng: tự nhiên thấy nhức đầu, hoa mắt, chóng mặt, mệt mỏi, chân tay ra rời, khó thở, mồ hôi ra nhiều, mặt đỏ, ù tai. Là hiện tượng sinh lý nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hiện tượng cực điểm.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Hiện tượng say nắng.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Hiện tượng hạ đường huyết.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Hiện tượng choáng trọng lực.\\",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 88,
+    "exam": 5,
+    "q_num": 8,
+    "type": "choice",
+    "question": "Việt Nam tham gia đầu trường Olympic lần đầu tiên vào năm nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1972.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "1976.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "1980.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "1984.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 89,
+    "exam": 5,
+    "q_num": 9,
+    "type": "choice",
+    "question": "Nguyên nhân chính nào, gây nên chấn thương trong tập luyện và thi đấu TDTT?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Khi tập luyện, thi đấu không khởi động, sân bãi dụng cụ kém, trang phục không phù hợp, ý thức kỷ luật của người tập kém.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Khi tập luyện, thi đấu không khởi động, sân bãi dụng cụ kém, trang phục phù hợp, ý thức kỷ luật của người tập kém.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Khi tập luyện, thi đấu không khởi động động, sân bãi dụng cụ kém, trang phục không phù hợp, vừa bị chấn thương chưa lành, ý thức kỷ luật của người tập kém.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Khi tập luyện, thi đấu không khởi động, sân bãi dụng cụ kém, trang phục phù hợp, vừa bị chấn thương chưa lành, ý thức ký luật của người tập kém.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 90,
+    "exam": 5,
+    "q_num": 10,
+    "type": "choice",
+    "question": "Nguyên tắc tập luyện TDTT nào? Là tiền đề chung để thực hiện tất cả các nguyên tắc khác của giáo dục thể chất?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nguyên tắc thích hợp và cá biệt hóa.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Nguyên tắc hệ thống.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Nguyên tắc tự giác tích cực.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Nguyên tắc tăng dần yêu cầu.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 91,
+    "exam": 5,
+    "q_num": 11,
+    "type": "choice",
+    "question": "Test đo dung tích sống có ý nghĩa như thế nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dung tích sống càng lớn thì thể tích phổi càng lớn chứng tỏ chức năng hô hấp tốt.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Dung tích sống tỉ lệ nghịch với thể tích phổi chứng tỏ chức năng hô hấp tốt.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Dung tích sống nhỏ, thể tích phổi lớn chứng tỏ chức năng hô hấp tốt.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Dung tích sống tỉ lệ thuận với thể tích phổi chưng tỏ chức năng hô hấp tốt.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 92,
+    "exam": 5,
+    "q_num": 12,
+    "type": "choice",
+    "question": "Trong việc hình thành kỹ năng vận động, hệ xương khớp điều chỉnh sự sai sát của kỹ thuật động tác?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đúng.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Sai.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 93,
+    "exam": 5,
+    "q_num": 13,
+    "type": "choice",
+    "question": "Mỡ là chất có giá trị cung cấp năng lượng rất cao, 1 gam mỡ khi phân giải cung cấp bao nhiêu kcal?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4,1 kcal.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "4,3 kcal.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "9,3 kcal.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "5,1 kcal.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 94,
+    "exam": 5,
+    "q_num": 14,
+    "type": "choice",
+    "question": "Hãy lựa chọn cách xử lý đúng sau khi bị “Chuột rút” trong quá trình tập luyện và thi đấu TDTT?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kéo giãn cơ tối đa theo chiều ngược lại cho đến khi không co lại được nữa.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Kéo giãn cơ tối đa cho đến khi không co lại được nữa và xoa bóp.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Kéo giãn cơ theo chiều ngược lại và xoa bóp.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Kéo dãn cơ tối đa theo chiều người lại cho đến khi không co lại được nữa và xoa bóp.",
+        "isCorrect": true
+      },
+      {
+        "key": "E",
+        "text": "Kéo giãn cơ theo chiều ngược lại cho đến khi không co lại được nữa và xoa bóp.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 95,
+    "exam": 5,
+    "q_num": 15,
+    "type": "choice",
+    "question": "Khi sơ cứu vết thương gây rách da, chảy máu mao mạch cần thiết phải làm gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rửa sạch vết thương bằng nước lã hoặc thuốc sát trùng rồi băng lại.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Rửa sạch vết thương bằng nước lã hoặc thuốc sát trùng rồi ga rô lại.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Chỉ dùng băng thấm cồn lau sạch từ mép vết thương ra xung quanh rồi băng lại.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Chỉ dùng băng thấm cồn lau sạch từ mép vết thương ra xung quanh rồi ga rô lại.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 96,
+    "exam": 5,
+    "q_num": 16,
+    "type": "choice",
+    "question": "Chỉ số nào sau đây của Test Haward thể hiện chức năng tim mạch trung bình?",
+    "options": [
+      {
+        "key": "A",
+        "text": "H < 55.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "H= 56 – 64.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "H= 65 – 79.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "H= 80 – 89.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 97,
+    "exam": 5,
+    "q_num": 17,
+    "type": "choice",
+    "question": "Trong TDTT kỹ năng vận động được hình thành dân theo mấy giai đoạn sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Giai đoạn lan tỏa + Giai đoạn tập trung.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Giai đoạn tự động hóa + A.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Giai đoạn hình thành phản xạ có điều kiện + A.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Giai đoạn hình thành phản xạ có điều kiện + B.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 98,
+    "exam": 5,
+    "q_num": 18,
+    "type": "choice",
+    "question": "Trong các trạng thái sinh lý và phản ứng xấu của cơ thể xảy ra trong tập luyện “Hạ đường huyết” xảy ra làm rối loạn cơ chết điều hòa thân nhiệt?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đúng.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Sai.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 99,
+    "exam": 5,
+    "q_num": 19,
+    "type": "choice",
+    "question": "Bài tập nào dưới đây để phát triển sức mạnh?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bơi 100 – 200m.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Chạy 100 – 200m.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Chạy 30 – 80m.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Chèo thuyền 100 – 200m.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 100,
+    "exam": 5,
+    "q_num": 20,
+    "type": "choice",
+    "question": "Trong TDTT các tố chất thể lực được phát triển thống nhất với kỹ năng nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kỹ năng động tác.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Kỹ năng lặp lại.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Kỹ năng vận động.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Kỹ năng phối hợp.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 101,
+    "exam": 6,
+    "q_num": 1,
+    "type": "choice",
+    "question": "Chủ tịch Hồ Chí Minh ra lời kêu gọi toàn dân tập thể dục vào thời gian nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "27/3/1946.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "27/3/1947.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "27/3/1948.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "27/3/1949.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 102,
+    "exam": 6,
+    "q_num": 2,
+    "type": "choice",
+    "question": "Anh (chị) hãy cho biết các xử lý nào, sau khi bị “bong gân cổ tay, cổ chân” là đúng?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chườm lạnh 1 – 2 ngày, sau đó chườm nóng và xoa bóp nhẹ nhàng.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Chườm lạnh 2 – 3 ngày, sau đó chườm nóng và xoa bóp nhẹ nhàng.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Chườm lạnh 3 – 4 ngày, sau đó chườm nóng và xoa bóp nhẹ nhàng.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Chườm nóng, xoa bóp nhẹ nhàng, sau đó bằng ép bất động khớp.",
+        "isCorrect": false
+      },
+      {
+        "key": "E",
+        "text": "Chườm lạnh, xoa bóp nhẹ nhàng, sau đó bằng ép bất động khớp.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 103,
+    "exam": 6,
+    "q_num": 3,
+    "type": "choice",
+    "question": "Nguyên tắc tăng dần yêu cầu trong TDTT là quá trình tăng lượng vận động như thế nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lượng vận động từ đơn giản đến phức tạp.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Lượng vận động liên tục và từ từ.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Lượng vận động từ dễ đến khó.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Lượng vận ddoongjtheo khả năng người tập.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 104,
+    "exam": 6,
+    "q_num": 4,
+    "type": "choice",
+    "question": "Khi kiểm tra chức năng Hệ tim mạch trong vận động mới đánh giá được chức năng tim mạch có đáp ứng được nhu cầu cung cấp .......... .......... cho hoạt động hay không?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lượng oxy.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Vận động và thích ứng.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Năng lượng.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Dinh dưỡng và dưỡng khí.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 105,
+    "exam": 6,
+    "q_num": 5,
+    "type": "fill_blank",
+    "question": "Hãy điền từ còn khuyết để hoàn thiện khái niệm về giáo dục Sức nhanh phản ứng vận động phức tạp trong các tố chất thể lực của TDTT? Sức nhanh phản ứng vận động phức tạp: là sự đáp lại những tín hiệu, hành động không được biết trước mà phải dựa vào khả năng phán đoán [ ... ] của người tập",
+    "fill_answer": "chính xác",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chính xác",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Kịp thời",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Nhanh chóng",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Linh hoạt",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 106,
+    "exam": 6,
+    "q_num": 6,
+    "type": "choice",
+    "question": "Nhu cầu “nước” của một người trong một ngày khoảng bao nhiêu lít nước?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 - 1,5 lít.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "1,5 – 2 lít.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "2 – 2,5 lít.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "2,5 – 3 lít.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 107,
+    "exam": 6,
+    "q_num": 7,
+    "type": "choice",
+    "question": "Hiện tượng Choáng trọng lực hà hiện tượng xảy ra do nguyên nhân chính nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "VĐV mệt mỏi tập luyện quá mức.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "VĐV bị hạ đường huyết đột ngột.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "VĐV về đích dừng lại đột ngột làm hạn chế lưu thông máu về tim.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Do điều kiện tập luyện nắng nóng gây nên.",
+        "isCorrect": false
+      },
+      {
+        "key": "E",
+        "text": "Do bị bệnh lý về đường hô hấp.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 108,
+    "exam": 6,
+    "q_num": 8,
+    "type": "choice",
+    "question": "Đoàn thể thao Việt Nam lần đầu tiên tham gia đấu trường Olympic vào năm nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Olympic 1972 tại Munich (Đức).",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Olympic 1976 tại Montreal (Canada).",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Olympic 1980 tại Mát – xcơ – va (Nga).",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Olympic 1984 tại Los Angeles (Mỹ).",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 109,
+    "exam": 6,
+    "q_num": 9,
+    "type": "choice",
+    "question": "Trong tập luyện và thi đấu TDTT. Sai khớp thường hay xảy ra ở khớp nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Khớp cổ chân, khớp khuỷu, khớp ngón tay.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Khớp cổ chân, khớp khuỷu, khớp vai.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Khớp khuỷu, khớp vai, khớp ngón tay.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Khớp khuỷu, khớp vai, khớp ngón tay cái.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 110,
+    "exam": 6,
+    "q_num": 10,
+    "type": "choice",
+    "question": "Anh (chị) hãy cho biết có mấy nguyên tắc tập luyện TDTT?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "5.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "6.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "7.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 111,
+    "exam": 6,
+    "q_num": 11,
+    "type": "choice",
+    "question": "Chỉ số vòng cao QVC được nên nghiên cứu trên đối tượng nào sau đây?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tuổi từ 18 – 25.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Tuổi từ 30 – 35.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Tuổi từ 40 – 45.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Tuổi từ 50 – 60.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 112,
+    "exam": 6,
+    "q_num": 12,
+    "type": "choice",
+    "question": "Kỹ năng vận động được hình thành sau một thời gian lặp lại sự hưng phấn tập trung ở những vùng nhất định trên vỏ não cần thiết cho vận động, các động tác thừa mất đi, động tác hợp lý nhịp nhàng. Đây là giai đoạn nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Giai đoạn lan tỏa.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Giai đoạn tập trung.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Giai đoạn tự động hóa.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Cả ba đáp án.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 113,
+    "exam": 6,
+    "q_num": 13,
+    "type": "choice",
+    "question": "Chỉ số sinh lý đặc trưng cho hoạt động của hệ hô hấp là tần số hô hấp. Ở người bình thường, tần số hô hấp khoảng bao nhiêu?",
+    "options": [
+      {
+        "key": "A",
+        "text": "14 – 18 lần/phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "15 – 19 lần/phút.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "16 – 20 lần/ phút.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "17 – 22 lần/phút.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  },
+  {
+    "id": 114,
+    "exam": 6,
+    "q_num": 14,
+    "type": "choice",
+    "question": "Trong tập luyện và thi đấu TDTT gây nên triệu chứng: cảm thấy mệt mỏi, hoa mắt, chóng mặt, cảm thấy đói, mặt tái xanh, ra mồ hôi lạnh, khó thở, trí giác giảm sút, giọng nói ngắt quãng. Là hiện tượng sinh lý?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hiện tượng cực điểm.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Hiện tượng say nắng.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Hiện tượng choáng trọng lực.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Hiện tượng hạ đường huyết.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 115,
+    "exam": 6,
+    "q_num": 15,
+    "type": "choice",
+    "question": "Loại tổn thương trong chấn thương TDTT: mẻ xương, lún xương, rạn xương, là dạn nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gãy xương kín.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Gãy xương hở.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Gãy xương hoàn toàn.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Gãy xương không hoàn toàn.",
+        "isCorrect": true
+      }
+    ],
+    "correct": "D"
+  },
+  {
+    "id": 116,
+    "exam": 6,
+    "q_num": 16,
+    "type": "choice",
+    "question": "Nhiệm vụ của kiểm tra y học TDTT là gì?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tổ chức và thực hiện cho VĐV có trình độ cao.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Phát hiện sớm những chấn thương và bệnh lý xuất hiện do quá trình tập luyện.",
+        "isCorrect": true
+      },
+      {
+        "key": "C",
+        "text": "Đánh giá trình độ của giáo viên, huấn luyện viên.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Đánh giá trình độ của sinh viên tham gia tập luyện.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "B"
+  },
+  {
+    "id": 117,
+    "exam": 6,
+    "q_num": 17,
+    "type": "choice",
+    "question": "Khi chảy máu động mạch, tĩnh mạch lớn, máu chảy xối xả thì phải sử dụng phương pháp ga rô, nhưng không được đặt ga rô lâu quá?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Không quá 2 tiếng.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Không quá 3 tiếng.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Không quá 4 tiếng.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Không quá 5 tiếng.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 118,
+    "exam": 6,
+    "q_num": 18,
+    "type": "choice",
+    "question": "Trong tập luyện và thi đấu TDTT nói đến “trạng thái hô hấp lần hai” của hiện tương sinh lý nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hiện tượng cực điểm.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Hiện tượng say nắng.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Hiện tượng hạ đường huyết.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Hiện tượng choáng trọng lực.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 119,
+    "exam": 6,
+    "q_num": 19,
+    "type": "choice",
+    "question": "Tố chất Mềm dẻo là năng lực thực hiện động tác?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lâu nhất.",
+        "isCorrect": true
+      },
+      {
+        "key": "B",
+        "text": "Cường độ lớn.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Biên độ lớn nhất.",
+        "isCorrect": false
+      },
+      {
+        "key": "D",
+        "text": "Ngắn nhất.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "A"
+  },
+  {
+    "id": 120,
+    "exam": 6,
+    "q_num": 20,
+    "type": "choice",
+    "question": "Bằng kiến thức đã học về lý luận giáo dục thể chất. Anh (chị) hãy cho biết, lượng vận động trong một buổi tập TDTT phụ thuộc vào yếu tố nào?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tay phải đặt chéo lên tay trái đặt ở 1/2 dưới xương ức.",
+        "isCorrect": false
+      },
+      {
+        "key": "B",
+        "text": "Tay trái đặt chéo lên tay phải đặt ở 1/2 dưới xương ức.",
+        "isCorrect": false
+      },
+      {
+        "key": "C",
+        "text": "Tay phải đặt chéo lên tay trái ở 1/3 dưới xương ức.",
+        "isCorrect": true
+      },
+      {
+        "key": "D",
+        "text": "Tay trái đặt chéo lên tay phải ở 1/3 dưới xương ức.",
+        "isCorrect": false
+      },
+      {
+        "key": "E",
+        "text": "Tay trái đặt chéo lên tay phải đặt ở 1/2 ở tại xương ức.",
+        "isCorrect": false
+      }
+    ],
+    "correct": "C"
+  }
+];
